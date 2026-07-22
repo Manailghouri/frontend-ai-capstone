@@ -18,15 +18,19 @@ export const Toggle: React.FC<ToggleProps> = ({
   return (
     <div className="toggle-field">
       <div className="toggle-info">
-        <label htmlFor={id} className="toggle-title">
+        <label htmlFor={id} id={`${id}-label`} className="toggle-title">
           {title}
         </label>
-        {description && <span className="toggle-desc">{description}</span>}
+        {description && <span id={`${id}-desc`} className="toggle-desc">{description}</span>}
       </div>
       <label className="toggle-switch">
         <input
           id={id}
           type="checkbox"
+          role="switch"
+          aria-checked={checked}
+          aria-labelledby={`${id}-label`}
+          aria-describedby={description ? `${id}-desc` : undefined}
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
         />
