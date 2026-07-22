@@ -87,6 +87,16 @@ Ensure you have the following installed on your local environment:
    ```
    *(or use `yarn install` or `pnpm install` if preferred)*
 
+3. **Configure Environment Variables:**
+   Create a `.env.local` file in the root directory and add your API keys:
+   ```env
+   # API Key for Gemini (Primary AI Engine)
+   NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
+
+   # Optional alternate AI keys
+   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
 ---
 
 ## 🏃 How to Run the Project
