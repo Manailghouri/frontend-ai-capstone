@@ -5,7 +5,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-An advanced Frontend AI Engineering capstone project designed to showcase cutting-edge user experience design, AI integrations, responsive layout architectures, and highly optimized web interfaces. This repository serves as the submission for the **FE-01 Frontend AI Engineering Internship Assignment**.
+A Frontend AI Engineering capstone repository that will be developed throughout the internship. This repository contains the initial project setup, documentation, and follows AI-assisted development practices. This repository serves as the submission for the **FE-01 Frontend AI Engineering Internship Assignment**.
 
 ---
 
